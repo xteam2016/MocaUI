@@ -1,0 +1,52 @@
+{
+  "name": "astros-example",
+  "version": "1.0.0",
+  "description": "Astros项目的示例站点",
+  "main": "server.js",
+  "dependencies": {
+    "astros": "~1.0.9",
+    "astros-2ximg": "~1.0.3",
+    "astros-asset-parse": "~1.0.2",
+    "astros-cmd-define": "~1.0.2",
+    "astros-cmd-read": "~1.0.1",
+    "astros-cmd-dep": "~1.0.3",
+    "astros-css-clean": "~1.0.0",
+    "astros-css-less": "~1.0.2",
+    "astros-css-less2": "~1.0.3",
+    "astros-css-sprite": "~1.0.3",
+    "astros-js-dep": "~1.0.1",
+    "astros-js-minify": "~1.0.4",
+    "astros-js-tpl": "~1.1.0",
+    "astros-img-interlace": "~1.0.4",
+    "astros-js-process": "~1.0.1",
+    "astros-resource-refer": "~1.0.6",
+    "astros-jscom-path": "~1.0.1",
+    "astros-webcom-refer": "~1.0.0",
+    "astros-svgfont": "~1.0.2",
+    "image-magic":"~1.0.9",
+    "async": "^1.5.0",
+    "console-prettify": "~1.0.1",
+    "express": "^4.13.3",
+    "file-plus": "~1.0.0",
+    "lang-utils": "~1.0.0",
+    "nodegrass": "^0.0.3",
+    "pandora-astros-map": "~2.0.0",
+    "pandorajs": "~1.0.7",
+    "pandora-proxy": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonabc/astros-example.git"
+  },
+  "author": "ilemonabc@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemonabc/astros-example/issues"
+  },
+  "homepage": "https://github.com/lemonabc/astros-example#readme"
+}

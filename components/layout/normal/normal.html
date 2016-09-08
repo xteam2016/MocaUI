@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%title%>-Astros</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="<%$g.cdn%>/css/p/<%pageName%>.css?v=<%$ver%>"/>
+    </head>
+    <body>
+        <div id="astro-wrap" class="g-main">
+            <div id="bd" class="g-wrap">
+                <div class="layout-normal">
+                    <div class="demo">
+                        这是layout-normal的内容，色值是blue
+                        <br>&nbsp;
+                    </div>
+                </div>
+                <point:content/>
+            </div>
+            <module:footer />
+        </div>
+        <%if !nojs%>
+        <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+        <script src="<%$g.cdn%>/js/p/<%pageName%>.js?v=<%$ver%>"></script>
+        <%/if%>
+</html>
